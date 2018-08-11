@@ -1,0 +1,34 @@
+{
+  "name": "react-rematch-scaffold",
+  "version": "1.0.0",
+  "description": "React scaffolding constructed with uba tool and rematch as state management",
+  "main": "index.js",
+  "scripts": {
+    "dev": "uba server",
+    "build": "uba build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvkens/react-rematch-scaffold.git"
+  },
+  "keywords": [
+    "react",
+    "uba"
+  ],
+  "author": "Kvkens",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kvkens/react-rematch-scaffold/issues"
+  },
+  "homepage": "https://github.com/kvkens/react-rematch-scaffold#readme",
+  "devDependencies": {
+    "uba": "^4.0.3",
+    "webpack-bundle-analyzer": "^2.13.1"
+  },
+  "dependencies": {
+    "@rematch/core": "^0.6.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
