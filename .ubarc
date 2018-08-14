@@ -1,3 +1,23 @@
 {
-    
+    "proxy": [
+        {
+            "url": "/api",
+            "options": {
+                "target": "http://cnodejs.org",
+                "changeOrigin": true,
+                "logLevel": "debug"
+            }
+        },
+        {
+            "url": [
+                "/users",
+                "/orgs"
+            ],
+            "options": {
+                "target": "https://api.github.com",
+                "changeOrigin": true,
+                "logLevel": "debug"
+            }
+        }
+    ]
 }
